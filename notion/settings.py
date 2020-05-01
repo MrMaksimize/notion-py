@@ -12,12 +12,12 @@ DATA_DIR = os.environ.get(
 CACHE_DIR = str(Path(DATA_DIR).joinpath("cache"))
 LOG_FILE = str(Path(DATA_DIR).joinpath("notion.log"))
 
-try:
-    os.makedirs(DATA_DIR)
-except FileExistsError:
-    pass
+#try:
+#    os.makedirs(DATA_DIR)
+#except FileExistsError:
+#    pass
 
-try:
-    os.makedirs(CACHE_DIR)
-except FileExistsError:
-    pass
+#try:
+#    os.makedirs(CACHE_DIR)
+#except FileExistsError:
+#    pass
